@@ -1,16 +1,8 @@
 <script>
 import createPilingJs, { createImageRenderer } from "piling.js";
 
-console.log('???');
-
 export default {
   name: 'App',
-  data() {
-    console.log('a is: ')
-    return {
-      counter: 0
-    }
-  },
   methods: {
     initPiling: function () {
       createPilingJs(this.$refs.piling, {
